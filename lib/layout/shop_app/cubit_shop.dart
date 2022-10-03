@@ -37,6 +37,8 @@ class CubitShop extends Cubit<ShopStates> {
   ];
 
   void ChangeCurrent(int value) {
+    if(value == 2)
+      getFavourite();
     current = value;
     emit(ChangeCurrentState());
   }
@@ -95,8 +97,7 @@ class CubitShop extends Cubit<ShopStates> {
         }
         else {
           getFavourite();
-          print(1);
-
+          print(111);
         }
 
         emit(ShopSuccessFavouritesModel(addFavourites));

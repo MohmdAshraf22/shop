@@ -3,7 +3,6 @@ import 'package:shop/shared/components/components.dart';
 import 'package:shop/shared/network/local/cache_helper.dart';
 
 String? token ='';
-String? uId ='';
 void signOut(context)
 {
   CacheHelper.removeData(

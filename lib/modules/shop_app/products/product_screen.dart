@@ -209,11 +209,12 @@ class ProductScreen extends StatelessWidget {
               ),
               Container(
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadiusDirectional.circular(30)
+                  borderRadius: BorderRadiusDirectional.circular(30),
                 ),
                 width: double.infinity,
                 clipBehavior: Clip.antiAliasWithSaveLayer,
                 child: ElevatedButton.icon(
+                  style: ButtonStyle(backgroundColor: MaterialStateColor.resolveWith((states) => defaultColor)),
                     onPressed: (){
                       CubitShop.get(context).info = model;
                       navigateTo(context, DetailsScreen(
