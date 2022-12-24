@@ -39,7 +39,6 @@ void main() async{
 }
 class MyApp extends StatelessWidget
 {
-//// c r u d
   final bool? isDark;
   final Widget? startWidget ;
   MyApp({

@@ -30,8 +30,7 @@ class ShopSuccessGetProfile extends ShopStates{}
 class ShopErrorGetProfile extends ShopStates{}
 
 class ShopSuccessUpdateProfile extends ShopStates{
-  // late ShopProfileModel? userProfile;
-  // ShopSuccessUpdateProfile(this.userProfile);
+  //
 }
 class ShopErrorUpdateProfile extends ShopStates{}
 class ShopLoadingUpdateProfile extends ShopStates{}

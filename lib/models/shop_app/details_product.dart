@@ -23,6 +23,7 @@ class Data {
      data.add(Details.fromJson(elements));
    });
     }
+
 }
 
 class Details {

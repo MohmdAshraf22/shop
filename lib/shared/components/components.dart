@@ -133,6 +133,7 @@ void showToast({
   fontSize: 16.0,
 );
 
+
 enum ToastColor {SUCCESS,ERROR,WARNING}
 Color ChangeToastColor(ToastColor state)
 {

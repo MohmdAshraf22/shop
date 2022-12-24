@@ -18,6 +18,7 @@ class SearchCubit extends Cubit<SearchStates> {
         path: SEARCH,
         data: {
           'text':text,
+
         },
     ).then((value) {
       model = SearchModel.fromJson(value.data);

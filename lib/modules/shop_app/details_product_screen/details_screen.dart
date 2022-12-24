@@ -3,9 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shop/layout/shop_app/cubit_shop.dart';
 import 'package:shop/layout/shop_app/states_shop.dart';
-import 'package:shop/models/shop_app/details_product.dart';
-import 'package:shop/models/shop_app/details_product.dart';
-import 'package:shop/models/shop_app/get_fav_model.dart';
 
 
 class DetailsScreen extends StatelessWidget {

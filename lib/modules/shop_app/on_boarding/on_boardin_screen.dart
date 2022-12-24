@@ -61,6 +61,7 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
         actions: [
           TextButton(
             onPressed: ToLogin,
+
             child: Text('SKIP',),),
         ],
       ),

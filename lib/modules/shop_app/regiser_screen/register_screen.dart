@@ -14,6 +14,7 @@ import 'package:shop/shared/components/constants.dart';
 import 'package:shop/shared/network/local/cache_helper.dart';
 import 'package:shop/shared/styles/colors.dart';
 
+
 class ShopRegister extends StatelessWidget {
   var formKey = GlobalKey<FormState>();
   var emailctrl = TextEditingController();

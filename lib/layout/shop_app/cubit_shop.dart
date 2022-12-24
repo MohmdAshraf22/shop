@@ -43,6 +43,7 @@ class CubitShop extends Cubit<ShopStates> {
     emit(ChangeCurrentState());
   }
 
+
   HomeModel? homeModel;
   CategoriesModel? categoriesModel;
   Map<int, bool>? favourite = {};

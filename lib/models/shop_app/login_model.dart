@@ -11,6 +11,7 @@ class ShopLoginModel
   }
 }
 
+
 class UserData
 {
   late int id;

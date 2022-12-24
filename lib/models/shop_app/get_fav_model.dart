@@ -8,6 +8,7 @@ class GetFavouriteModel {
     data = Data.fromJson(json['data']);
   }
 }
+
 class Data {
   int? currentPage;
   List<FavData>? data;

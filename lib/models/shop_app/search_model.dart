@@ -9,6 +9,7 @@ class SearchModel {
   }
 }
 
+
 class Data {
   int? currentPage;
   List<Product>? data;

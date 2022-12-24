@@ -9,7 +9,6 @@ class HomeModel
    data =  DataShop.fromJson(json['data']);
  }
 }
-
 class DataShop
 {
  late List<Banners> banners = [];

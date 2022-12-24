@@ -4,7 +4,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shop/layout/shop_app/cubit_shop.dart';
 import 'package:shop/layout/shop_app/states_shop.dart';
 import 'package:shop/models/shop_app/categories_model.dart';
-import 'package:shop/shared/components/components.dart';
 
 class CategoriesScreen extends StatelessWidget {
 

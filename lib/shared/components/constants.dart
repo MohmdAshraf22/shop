@@ -12,4 +12,5 @@ void signOut(context)
       navigateAndFinish(context, ShopLogin());
     }
   });
+
 }

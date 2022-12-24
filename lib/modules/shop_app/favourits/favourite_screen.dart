@@ -5,7 +5,6 @@ import 'package:shop/layout/shop_app/cubit_shop.dart';
 import 'package:shop/layout/shop_app/states_shop.dart';
 import 'package:shop/models/shop_app/get_fav_model.dart';
 import 'package:shop/shared/components/components.dart';
-import 'package:shop/shared/styles/colors.dart';
 
 class FavouriteScreen extends StatelessWidget {
 

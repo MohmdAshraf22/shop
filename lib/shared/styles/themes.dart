@@ -18,8 +18,7 @@ ThemeData darkTheme = ThemeData(
       fontWeight: FontWeight.bold,
       fontSize: 22,
     ),
-    iconTheme: IconThemeData(
-      color: Colors.white,
+    iconTheme: IconThemeData(color: Colors.white,
     ),
   ),
   //primarySwatch: defaultColor,
