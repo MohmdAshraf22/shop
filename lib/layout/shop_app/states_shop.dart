@@ -1,6 +1,5 @@
 import 'package:shop/models/shop_app/favourite_model.dart';
 import 'package:shop/models/shop_app/login_model.dart';
-import 'package:shop/models/shop_app/profile_model.dart';
 
 abstract class ShopStates{}
 class InitialState extends ShopStates{}

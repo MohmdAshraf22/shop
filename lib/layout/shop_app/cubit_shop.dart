@@ -11,7 +11,6 @@ import 'package:shop/models/shop_app/favourite_model.dart';
 import 'package:shop/models/shop_app/get_fav_model.dart';
 import 'package:shop/models/shop_app/get_fav_model.dart';
 import 'package:shop/models/shop_app/home_model.dart';
-import 'package:shop/models/shop_app/profile_model.dart';
 import 'package:shop/models/shop_app/search_model.dart';
 import 'package:shop/modules/shop_app/categories/categories_screen.dart';
 import 'package:shop/modules/shop_app/favourits/favourite_screen.dart';
